@@ -17,7 +17,7 @@ Clone this repo, then to set it up for your project
 
 If you favourite editor find all instances of DUMMY and replace them with MY_PROJECT.
 
-Create config/application.yaml with situable values:
+Create config/application.yml with situable values:
 
     development:
       db_username: root
