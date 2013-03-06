@@ -1,4 +1,4 @@
-megalist
+base_rails_app
 ========
 
-List manager from the future
+Dummy rails app template

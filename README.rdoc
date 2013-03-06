@@ -1,0 +1,2 @@
+Based on the great work at:
+http://railsapps.github.com/tutorial-rails-prelaunch-signup.html
