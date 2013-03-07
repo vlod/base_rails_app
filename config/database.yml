@@ -3,7 +3,7 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: DUMMY_development
+  database: megalist_development
   pool: 5
   username: <%=ENV['db_username'] %>
   password: <%=ENV['db_password'] %>
@@ -16,7 +16,7 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: DUMMY_test
+  database: megalist_test
   pool: 5
   username: <%=ENV['db_username'] %>
   password: <%=ENV['db_password'] %>
@@ -26,7 +26,7 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: DUMMY_production
+  database: megalist_production
   pool: 5
   username: <%=ENV['db_username'] %>
   password: <%=ENV['db_password'] %>
