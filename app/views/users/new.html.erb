@@ -1,0 +1,12 @@
+<h1>Sign up</h1>
+
+<% if @already_signed_up %>
+  <div class="alert alert-info">We've noticed you've previously signed up, would you rather login instead? <%= link_to "Login here.", '/login' %>
+  </div>
+<% end %>
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= render 'form' %>
+  </div>
+</div>

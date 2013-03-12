@@ -23,6 +23,7 @@ end
 gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'figaro' # https://github.com/laserlemon/figaro
+gem 'bcrypt-ruby'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -36,6 +37,17 @@ gem 'figaro' # https://github.com/laserlemon/figaro
 # Deploy with Capistrano
 # gem 'capistrano'
 
+group :test do
+ # gem 'turn'
+  gem 'capybara'
+  gem 'factory_girl_rails'
+end
+
+group :test, :development do
+  gem 'rspec-rails'
+  gem 'database_cleaner' # required by capybara
+end
+
 group :development do
   gem 'debugger'
   gem 'quiet_assets'
@@ -43,4 +55,5 @@ group :development do
   gem 'better_errors' # https://github.com/charliesome/better_errors
   gem 'binding_of_caller' # https://github.com/banister/binding_of_caller
 end
+
 

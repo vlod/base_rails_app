@@ -1,0 +1,9 @@
+<br>
+<% if Rails.env.development? %>
+  <pre>
+    Params: <%= params.inspect %>
+
+    Cookie_uid: <%= cookies.signed[:uid] %>
+    Session_uid: <%= session[:uid] %>
+  </pre>
+<% end %>
