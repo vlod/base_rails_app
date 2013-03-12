@@ -7,9 +7,12 @@ Clone this repo, then to set it up for your project
 
     git clone git@github.com:vlod/base_rails_app.git MY_PROJECT
     cd MY_PROJECT
-    
-    # clear out the remote link to this project
-    git remote rm origin
+
+    # you don't want any of the git history, so recreate
+    rm -rf .git
+    git init
+    git add .
+    git commit -m "initial commit"
 
     # add a new origin that's been set up
     git remote add origin git@github.com:vlod/MY_PROJECT.git
