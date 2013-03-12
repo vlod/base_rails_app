@@ -14,9 +14,9 @@ Clone this repo, then to set it up for your project
     git add .
     git commit -m "initial commit"
 
-    # add a new origin that's been set up
+    # add a new origin that's been set up and push it up
     git remote add origin git@github.com:vlod/MY_PROJECT.git
-    git remote show origin
+    git push -u origin master
 
 If you favourite editor find all instances of DUMMY and replace them with MY_PROJECT.
 
