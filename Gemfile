@@ -51,7 +51,7 @@ end
 group :development do
   gem 'debugger'
   gem 'quiet_assets'
-  gem 'thin'
+  # gem 'thin' # some problems with ruby 2.0 for now
   gem 'better_errors' # https://github.com/charliesome/better_errors
   gem 'binding_of_caller' # https://github.com/banister/binding_of_caller
 end
